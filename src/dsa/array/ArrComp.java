@@ -14,7 +14,7 @@ public class ArrComp {
     }
 }
 
-
+// added an Employee class and want to compare the members so i can have them sorteed
  class Employee implements Comparable<Employee> {
     private String name;
     private int age;
