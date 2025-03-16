@@ -15,6 +15,13 @@ public class Fruit extends Item{
         return type;
     }
 
+
+    // in order to print the specifics of this class i made my sublcass to be able
+    // to create its own print statement
+    // which prints according to the specifics of the class.
+    // Its advisable for subclasses to override the method that invokes it inorder
+    // to fit obj that invokes it
+
     @Override
     public String toString() {
         return "Fruit: " + getName() + ", Quantity: " + getQuantity() + "Type: " + getType();
